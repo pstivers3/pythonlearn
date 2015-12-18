@@ -1,0 +1,26 @@
+AccountNumber:2050
+name:Bob's Cash
+balance:1084.02
+trans:1000.0
+trans:-300.0
+trans:-25.78
+trans:400.0
+trans:300.56
+trans:-40.76
+trans:-250.0
+AccountNumber:2070
+name:My Stash
+balance:921.1
+trans:1000.0
+trans:20.5
+trans:200.6
+trans:-300.0
+AccountNumber:2055
+name:Fred's Stash
+balance:2092.03
+trans:2000.0
+trans:-100.0
+trans:-20.56
+trans:-30.65
+trans:300.0
+trans:-56.76

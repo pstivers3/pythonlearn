@@ -1,0 +1,26 @@
+sim, air velocity, air units
+lr3, 10.0, m/s
+lr7, 20.0, m/s
+lr1, 10.0, m/s
+lr17, 60.0, m/s
+lr21, 80.0, m/s
+lr20, 80.0, m/s
+lr19, 60.0, m/s
+lr0, 10.0, m/s
+lr15, 60.0, m/s
+lr24, 80.0, m/s
+lr11, 40.0, m/s
+lr13, 40.0, m/s
+lr14, 40.0, m/s
+lr22, 80.0, m/s
+lr16, 60.0, m/s
+lr2, 10.0, m/s
+lr18, 60.0, m/s
+lr5, 20.0, m/s
+lr4, 10.0, m/s
+lr12, 40.0, m/s
+lr9, 20.0, m/s
+lr23, 80.0, m/s
+lr6, 20.0, m/s
+lr10, 40.0, m/s
+lr8, 20.0, m/s

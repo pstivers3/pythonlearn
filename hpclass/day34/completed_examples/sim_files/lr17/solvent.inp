@@ -1,0 +1,28 @@
+Water
+8.1 1761.0 236.54 
+1.0000e+00 4.0224e-01 5.8162e+02 1.8000e+01 1.0000e+00
+0 0
+
+
+-------------------------------------------------------------------------------
+|      HUMAN READABLE SECTION (not read during upload)                        |
+-------------------------------------------------------------------------------
+
+Line 1 (ignore data for extra solvents if not used)
+ Solvent 1 = Water
+ Solvent 2 = 2-Pyrrolidinone (2P)
+ Solvent 3 = Ethylene glycol (EG-1)
+ 
+Line 2
+  Antoine Constants CONSTANTS {A,B,C}, {PVAP = 10**(A-B/(T+C))-PVAP (mmHg),T (deg C)}
+    Solvent 1:      8.1 1.76e+03 2.37e+02
+    Solvent 2:     7.49 2.04e+03 1.88e+02
+    Solvent 3:     7.77 1.91e+03 1.93e+02
+      
+Line 3                  Solvent 1  Solvent 2  Solvent 3
+  Heat Capacity:               1       0.47       0.57    [cal/g-C], 
+  HTC/MTC Ratio:             0.4       0.13       0.17    [cal-atm/g-C]
+  Heat of Vaporization: 5.82e+02   1.91e+02   2.56e+02    [cal/g]
+  Molecular Weight:           18       85.1      62.07    [g/mol]
+  Specific Gravity:            1       1.11       0.73    [g/cm^3]
+  EOS:                       0 0        0 0        0 0

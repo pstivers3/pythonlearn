@@ -1,0 +1,30 @@
+runMode = DME template
+runModel = Vapor Resistance Model
+title = Generic Dryer for Python Class.
+project = Modeling - DDO.
+author = Kenneth Olsen
+
+choiceNoSolvents = 1
+solvent1 = Water
+solvent2 = 2-Pyrrolidinone (2P)
+solvent3 = Ethylene glycol (EG-1)
+
+# dryer data 
+numberDryingSections = 1
+TopAirVelocity1 = 20.0 #[m/s]
+TopAirVelocity2 = 1.5
+TopAirVelocity3 = 2.0
+TopAirVelocity4 = 2.0
+TopAirVelocity5 = 0.762
+TopAirVelocity6 = 12.0
+TopAirVelocity7 = 0.762
+TopAirVelocity8 = 12.0
+BottomAirVelocity1 = 10.0
+BottomAirVelocity2 = 0.01
+BottomAirVelocity3 = 0.01
+BottomAirVelocity4 = 0.01
+BottomAirVelocity5 = 0.1
+BottomAirVelocity6 = 0.1
+BottomAirVelocity7 = 0.1
+BottomAirVelocity8 = 0.1
+

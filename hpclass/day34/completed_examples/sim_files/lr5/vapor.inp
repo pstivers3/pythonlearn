@@ -1,0 +1,68 @@
+LINE 1 TITLE
+Generic Dryer for Python Class.
+LINE 2 WEB SPEED(m/min), COATING WIDTH(cm), MAX RATE(g/m^2-min, NEGATIVE NUMBER TO IGNORE)
+6.096e+01, 4.064e+01, -6.000e+05, 41
+LINE 3 NUMBER OF SOLVENTS
+1
+LINE 5 WEIGHT FRACTION FOR SOLVENTS AND Flory-Huggins Interaction Parameter
+7.870e-01, 2.130e-01, 3.500e-01
+LINE 6 TWEB(Deg C), DENSITY(g/cm^3) AND CP(cal/g-C) SOLIDS, 
+	THICK(cm), DENSITY, CP SUBSTRATE, TOTAL WET WEIGHT (g/m^2)
+2.000e+01, 1.0, 0.299990576, 1.100e-02, 6.9600e-01, 4.5381e-01, 1.330e+01
+LINE 7 NUMBER OF ZONES
+1
+LINES 8 AND 9 REPEATED UP TO NUMBER OF ZONES
+TU(deg C), HU(cal/sqm/sec/C), TL, HL
+TWall(deg C), VIEW, PP(I), Maximum Integration Time Step(sec), PDIST(m), OLZONE(m)
+2.389e+01, 1.013e+02, 9.333e+01, 5.845e+01
+1.950e+02, 0, 1.202e-02, 1.00e-04, 0.02285888448643706, 2.285888448643706
+
+
+-------------------------------------------------------------------------------
+|      HUMAN READABLE SECTION (not read during upload)                         |
+-------------------------------------------------------------------------------
+
+LINE 1 TITLE =          Generic Dryer for Python Class
+
+LINE 2 
+	Web Speed =           60.957   [m/min]
+	Coating Width    =    40.64    [cm]
+	Max Draying Rate =    -6e+05   [g/m^2-min] (negative to ignore)
+	Cells =               41 (not user selectable)
+
+LINE 3 
+  Nunber of solvents =  1
+	
+LINE 5 
+	solvent wt fr   =        0.787,     0.09,     0.05  
+	solute wt fr =           0.213 
+	FH parameters =           0.35,     0.35,     0.35
+
+LINE 6 
+  Web Temperature =     20       [C] 
+  Solute Density =      1        [g/cm^3]
+  Solute CP =           0.3      [cal/g-C]
+  Substrate Thickness = 0.011    [cm]
+  Substrate Density =   0.696    [g/cm^3]
+  CP Substrate =        0.454    [cal/g-C]
+  Total Wet Weight =    13.3     [g/m^2]
+
+LINE 7 
+  Number of Zones =     1
+
+LINES 8 AND 9 REPEATED (first 4 shown, ignore if zone not used)
+                          Zone 1  Zone 2  Zone 3  Zone 4  ...
+	TU[deg C] =             23.889      45      95      25
+	HU[cal/m^2-s-C] =      101.253   3.789   2.715   5.404
+	TL[deg C] =             93.333      25      25      25  
+	HL[cal/m^2-s-C] =       58.451   0.311   0.196   0.382 
+
+	Wall Temperature[C] =      195     160     195     160
+	View Factor =                0       0    0.03       0
+	Part. Press(1)[atm] =    0.012   0.012   0.012   0.012
+	Part. Press(2)[atm] =        0       0       0       0
+  Part. Press(3)[atm] =        0       0       0       0
+  Intg.[sec]=                  0       0       0       0 
+	Data Write len[m]=       0.023   0.001   0.002   0.001 
+	Zone Len[m] =            2.286   0.092   0.232   0.061 
+
