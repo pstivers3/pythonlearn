@@ -1,0 +1,27 @@
+#!/usr/local/bin/python 
+
+import time
+file = 'logfile'
+# tail a file, similar to tail -f
+def tail(f):
+    f.seek(0,2)  # move to EOF
+    while True:
+        line = f.readline()  # try reading a new line of text
+        print line,
+	if not line:         # if nothing, sleep breifly and try again
+            time.sleep(0.1)
+            continue
+        yield line
+
+# tail("logfile")
+def grep(lines, searchtext):
+    for line in lines:
+        if searchtext in line: yield line
+
+# a python implementation of Unix "tail -f | grep python"
+log = tail(open("logfile"))
+pylines = grep(log,"pyton")
+for line in pylines:
+    print line,
+	
+
