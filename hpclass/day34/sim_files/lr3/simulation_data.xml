@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrySimResults display="Simulation Data">
+    <designData display="Design data">
+        <simModel display="Drying model" info="Vapor or Combined Resistance Model">
+            Vapor Resistance Model
+        </simModel>
+        <simMode display="Run mode" info="DME template or Upload custom files">
+            DME template
+        </simMode>
+        <EOS display="Equation of state" info="Ideal, Non-ideal, or Flory-Huggins">
+            Flory-Huggins
+        </EOS>
+        <substrate display="Media">
+            Paper (generic)
+        </substrate>
+        <solute display="Solute">
+            Pigment
+        </solute>
+        <soluteWeightFraction display="Solute weight fraction">
+            0.21299999999999997
+        </soluteWeightFraction>
+        <numberOfPrintZones display="Number of print zones">
+            1
+        </numberOfPrintZones>
+        <numberDryingSections display="Number of drying sections">
+            1
+        </numberDryingSections>
+        <numberSolvents display="Number of solvents">
+            1
+        </numberSolvents>
+        <solventName1 display="Solvent 1 name">
+            Water
+        </solventName1>
+        <solvent1WeightFraction display="Solvent 1 weight fraction">
+            0.787
+        </solvent1WeightFraction>
+        <arrangement display="Printer arrangement" info="Single/Multiple print zones and Multiple or Unique drying sections">
+            Single Print Zone
+        </arrangement>
+    </designData>
+    <printZoneData display="Print zone data">
+        <printZone1 display="Print zone 1">
+            <totalWetWeightCoating display="Ink loading GSM" units="g/m^2">
+                13.3
+            </totalWetWeightCoating>
+            <webSpeed display="Media speed" units="m/s">
+                1.0159504216194248
+            </webSpeed>
+            <coatedWebWidth display="Printed width of the media" units="m">
+                0.40640081280162565
+            </coatedWebWidth>
+        </printZone1>
+    </printZoneData>
+    <dryerZoneData display="Dryer zone data">
+        <dryerZone1 display="Dryer zone 1">
+            <topsideAirTemperature display="Topside air temperature" units="C">
+                148.8888888888889
+            </topsideAirTemperature>
+            <bottomsideAirTemperature display="Bottomside air temperature" units="C">
+                93.33333333333337
+            </bottomsideAirTemperature>
+            <relativeHumidityFactor display="Relative humidity" units="%">
+                50.0
+            </relativeHumidityFactor>
+            <dryerLength display="Dryer length" units="m">
+                2.285888448643706
+            </dryerLength>
+            <topsideAirFlow display="Topside airflow rate" units="m^3/s">
+                0.6185420370840743
+            </topsideAirFlow>
+            <bottomsideAirFlow display="Bottomside airflow rate" units="m^3/s">
+                0.6185420370840743
+            </bottomsideAirFlow>
+            <topsideAirHeatCapacity display="Topside air heat capacity" units="J/kg-K">
+                1021.0214202608262
+            </topsideAirHeatCapacity>
+            <topsideAirThermalCond display="Topside thermal conductivity" units="W/m-K">
+                0.03492362222222222
+            </topsideAirThermalCond>
+            <topsideAirVelocity display="Topside air velocity" units="m/s">
+                10.0
+            </topsideAirVelocity>
+            <bottomsideAirVelocity display="Bottom side air velocity" units="m/s">
+                10.0
+            </bottomsideAirVelocity>
+            <topsideConvectiveHTCoeff display="Topside HTC" info="Heat transfer coefficient" units="J/m^2-s-C">
+                230.29731404438783
+            </topsideConvectiveHTCoeff>
+            <topsideConvectiveMTCoeff1 display="Topside MTC solvent 1" info="Mass transfer coefficient" units="m/s">
+                0.2561940600266823
+            </topsideConvectiveMTCoeff1>
+            <bottomsideAirHeatCapacity display="Bottomside air heat capacity" units="J/kg-K">
+                1014.1586055201129
+            </bottomsideAirHeatCapacity>
+            <bottomsideAirThermalCond display="Bottomside thermal conductivity" units="W/m-K">
+                0.031034733333333335
+            </bottomsideAirThermalCond>
+            <bottomsideConvectiveHTCoeff display="Bottomside HTC" info="Heat transfer coefficient" units="J/m^2-s-C">
+                244.72080382178262
+            </bottomsideConvectiveHTCoeff>
+        </dryerZone1>
+    </dryerZoneData>
+    <simResults display="Simulation results">
+        <topsideTotalAirflow display="Topside total airflow" units="m^3/s">
+            0.6185420370840743
+        </topsideTotalAirflow>
+        <bottomsideTotalAirflow display="Bottomside total airflow" units="m^3/s">
+            0.6185420370840743
+        </bottomsideTotalAirflow>
+        <distance display="Dryer length" info="Final distance from vapor.csv" units="m">
+            2.286
+        </distance>
+        <time display="Time" units="s">
+            2.25
+        </time>
+        <temperature display="Exit temperature" info="Final (exit) temperature from vapor.csv" units="C">
+            118.5
+        </temperature>
+        <percentRemaining display="Solvent remaining pct" info="Final &quot;PERCENT REMAINING&quot; from vapor.csv" units="%">
+            0.1724
+        </percentRemaining>
+        <dryingRate display="End drying rate" info="Final &quot;RATE&quot; from vapor.csv" units="g/m^2-min">
+            0.04934
+        </dryingRate>
+        <solventRemaining1 display="Solvent 1 GSM remaining" info="Final &quot;SOLVENT REMAINING&quot; for Solvent 1 in vapor.csv" units="g/m^2">
+            0.004892
+        </solventRemaining1>
+        <solventRemainingTotal display="Total solvent GSM remaining" units="g/m^2">
+            0.004892
+        </solventRemainingTotal>
+        <WTOT display="Last section ink GSM" info="Total wet weight of ink/coating ing g/m^2 entering last section" units="g/m^2">
+            0.1330E+002
+        </WTOT>
+        <overallDryingRate display="Overall drying rate" info="Drying rate from last secion." units="g/min">
+            0.2592E+003
+        </overallDryingRate>
+        <solventRemoved1 display="Solvent 1 GSM removed" info="Calculated based on &quot;Last section ink GSM&quot; and Solvent 1 weight fraction" units="g/m^2">
+            10.462208
+        </solventRemoved1>
+        <Power_total display="Power total" info="Total cumulative evaporative and sensible power from last entry in power.csv" units="W">
+            16138.2169439
+        </Power_total>
+        <Power_ink_sensible display="Power ink sensible" info="Ink cumulative sensible power from last entry in power.csv" units="W">
+            0.790690113679
+        </Power_ink_sensible>
+        <Power_web_sensible display="Power web sensible" info="Web cumulative sensible power from last entry in power.csv" units="W">
+            5615.59587944
+        </Power_web_sensible>
+        <Power_latent display="Power latent" info="Evap cumulative latent power from last entry in power.csv" units="W">
+            10521.8303743
+        </Power_latent>
+        <Power_solvent_1 display="Solvent 1 latent power" info="Solvent 1 cumulative latent power from last entry in power.csv" units="W">
+            10521.8303743
+        </Power_solvent_1>
+    </simResults>
+</DrySimResults>
