@@ -1,1 +1,1 @@
-Python scripts for learning purposes
+Python code for learning purposes
