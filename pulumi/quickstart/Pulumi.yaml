@@ -1,0 +1,6 @@
+name: pulumi-python-quickstart
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Website on S3
