@@ -25,7 +25,7 @@ from __future__ import print_function
 
 h = 7
 w = 2*h
-half = (h-1)/2
+half = (h-1)//2
 print () 
 
 x = 1
@@ -39,7 +39,7 @@ for n in range(0,half):
 print ('*' * w, end ='')
 print () 
 
-x = (w-4)/2 
+x = (w-4)//2 
 for n in range(0,half): 
     print ('*' * x, end='')
     spaces = w - 2*x
