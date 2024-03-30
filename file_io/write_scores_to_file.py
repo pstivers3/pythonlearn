@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-f = open('scores.txt', 'r')
+f = open('scores.txt', 'w')
 
 while True:
     participant = input('Participant name > ')
@@ -11,5 +11,6 @@ while True:
 
     score = input('Score for ' + participant + '> ')
     f.write(participant + ',' + score + '\n')
+    # f.write(participant, ',', score)
 
 f.close()

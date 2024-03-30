@@ -1,3 +1,5 @@
+Angela,98.2
+Rick J,95.7
 Paul S,100
 Jessica M,98.5
 Adam F,97.0
