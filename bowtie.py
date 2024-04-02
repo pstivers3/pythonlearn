@@ -1,4 +1,4 @@
-#!/usr/local/bin/python 
+#!/usr/bin/env python3
 
 # Your program should take as input the height H of the bow tie, where H is an odd positive integer greater than or equal to 5. 
 # A bow tie with H rows (and 2H columns) should then be printed using the pattern shown below. You may assume that all input data will be valid.
