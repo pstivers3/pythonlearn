@@ -2,16 +2,14 @@
 
 import sys
 
-try:
-    a=sys.argv[1]  # first argument
-except IndexError:
+if len(sys.argv) < 2:
     print("usage:", sys.argv[0],"<argument> [additinal arguments]")
-else:
-    print("\nthe filename is:", sys.argv[0])  #  script name
-    print("the first arg is:", sys.argv[1], "\n")  # first argument
-    print("the filename and all the args are:")
-    for arg in sys.argv: # list all the args
-        print(arg)
+    sys.exit()
+    
+print("the filename is:", sys.argv[0])  #  script name
+print("\nthe arguments are:")
+for arg in sys.argv[1:]: # slice to omit the filename 
+    print(arg)
 
-    print("the total number of args is: ", len(sys.argv)) # number of arguments
+print("\nthe total number of args not counting the filename is:", len(sys.argv[1:]))
 
