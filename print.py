@@ -11,3 +11,13 @@ ages={'Paul': 50,
 for person in ages:
     print(person, ages[person])
 
+print()
+# arrays
+names={ 'David',
+        'Paul',
+        'Judy'
+      }
+
+for name in names:
+    print(f"My name is {name}")
+    print("my name is", name)
