@@ -12,6 +12,7 @@ for person in ages:
     print(person, ages[person])
 
 print()
+
 # arrays
 names={ 'David',
         'Paul',
@@ -19,5 +20,21 @@ names={ 'David',
       }
 
 for name in names:
-    print(f"My name is {name}")
     print("my name is", name)
+
+print()
+
+# formatted
+kind="sheep"
+print(f"a {kind} dog")
+print("a {0} dog".format(kind))
+print("a %s dog" % kind)
+
+print('\nThat is %d %s bird!' % (1, 'dead'))
+print('That is {0} {1} bird!'.format(1, 'dead'))
+
+# tripple quotes
+print('''
+go
+  tell
+it!''')
