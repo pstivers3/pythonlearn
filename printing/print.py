@@ -24,11 +24,13 @@ for name in names:
 
 print()
 
-# formatted
 kind="sheep"
+#formatted expression
+print("a %s dog" % kind)
+# formatted function
 print(f"a {kind} dog")
 print("a {0} dog".format(kind))
-print("a %s dog" % kind)
+
 
 print('\nThat is %d %s bird!' % (1, 'dead'))
 print('That is {0} {1} bird!'.format(1, 'dead'))

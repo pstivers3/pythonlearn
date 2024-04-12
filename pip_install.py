@@ -3,8 +3,8 @@
 import os
 
 modules = [
-        "requests",
-        "columnar"
+        "requests"
+        #"columnar"
         ]
 
 for module in modules:
