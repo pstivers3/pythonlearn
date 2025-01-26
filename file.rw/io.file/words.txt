@@ -1,5 +1,0 @@
-boo
-pyhthon
-monty
-black
-knight
