@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-f = open("colors.txt")
+f = open("../files/colors.txt")
 
 count = 0 
 colors = []

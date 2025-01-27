@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 # first way
-print(open('words.txt').read())
+print(open('../files/words.txt').read())
 
 # iterator way 
-for line in open('words.txt'):
+for line in open('../files/words.txt'):
   print(line, end='') 
 
 print()
 
 # loop way
-file = 'words.txt'
+file = '../files/words.txt'
 f = open(file)             # Returns a file object
 line = f.readline()        # Invokes readline() method on file
 while line:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-f = open('scores.txt', 'r')
+f = open('../files/scores.txt', 'r')
 
 participants = {}
 
