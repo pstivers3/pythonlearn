@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-f = open("testfile2", "r")
+f = open("colors.txt")
 
 count = 0 
 colors = []
@@ -13,4 +13,4 @@ for line in f:
 
 f.close()
 print(colors)
-print("Then number of colors that start with a \"B\" is: " + str(count))
+print("The number of colors that start with a \"B\" is: " + str(count))
